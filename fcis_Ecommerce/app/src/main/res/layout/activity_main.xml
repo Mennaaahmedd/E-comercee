@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroudapp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="267dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="175dp"
+        android:background="#4DA3E8"
+        android:fontFamily="@font/acme"
+        android:text="register"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="459dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/SIGN_LOGIN"
+        android:layout_width="271dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="@font/acme"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="270dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="22dp"
+        android:text="Home" />
+
+</RelativeLayout>

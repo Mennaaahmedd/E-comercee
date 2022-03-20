@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">fcis_Ecommerce</string>
+    <string-array name="products">
+        <item>pink shirt</item>
+        <item>purple shirt</item>
+        <item>black shirt</item>
+        <item>yellow shirt</item>
+        <item>green shirt</item>
+
+    </string-array>
+</resources>

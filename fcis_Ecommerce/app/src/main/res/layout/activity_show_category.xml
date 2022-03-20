@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4E6E6"
+    tools:context=".show_category">
+
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="582dp"
+        android:fontFamily="@font/acme"
+        android:padding="10dp"
+        android:text="Categories"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="431dp"
+        android:background="@drawable/tshirt_back" />
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="476dp"
+        android:fontFamily="@font/acme"
+        android:padding="25dp"
+        android:text="T-shirts"
+        android:textColor="#917F7F"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="234dp"
+        android:background="@drawable/shoes_back"
+        android:filterTouchesWhenObscured="false"
+        android:focusableInTouchMode="false"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="282dp"
+        android:fontFamily="@font/acme"
+        android:padding="25dp"
+        android:text="Shoes"
+        android:textColor="#C62424"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/shoe_cat"
+        android:layout_width="119dp"
+        android:layout_height="158dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="238dp"
+        app:srcCompat="@drawable/sneakers" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="173dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/accesories_back" />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/acme"
+        android:padding="25dp"
+        android:text="Accessories"
+        android:textColor="#332727"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/tshirt_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="471dp"
+        app:srcCompat="@drawable/blueshirt" />
+
+    <ImageView
+        android:id="@+id/access_cat"
+        android:layout_width="110dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="62dp"
+        app:srcCompat="@drawable/jewelry" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="596dp"
+        android:text="logOut" />
+
+
+</RelativeLayout>

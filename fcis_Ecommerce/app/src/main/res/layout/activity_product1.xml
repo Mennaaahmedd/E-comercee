@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EAEA"
+    tools:context=".product1">
+
+    <TextView
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="577dp"
+        android:fontFamily="@font/acme"
+        android:padding="10dp"
+        android:text="T-shirts"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shirt_recyle"
+        android:layout_width="393dp"
+        android:layout_height="548dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="7dp" />
+
+    <Button
+        android:id="@+id/search_PRODUCT"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="577dp"
+        android:text="Go search" />
+
+</RelativeLayout>
